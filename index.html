@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="styles_login.css">
+</head>
+<body>
+
+
+   
+    <form action="" method="post">
+  
+        <div class="login-box">
+            <h1>Log In</h1>
+            
+            <p class="label">Email</p>
+            <div class="input-box">
+                <input class="" type="email"  id="email1"></input>
+            </div>
+            <p class="label">Password</p>
+            <div class="input-box">
+                <input  class="" type="password" id="pass1"></input>
+            </div>
+
+            <input style="width: auto;" type="button" value="Log In" id="login">
+            <input style="width: auto;" type="button"  onclick="location.href = 'Register.html'" value="Register">
+            
+    </form>
+
+    
+    <div class="load-wraper">
+        <div class="holder">
+            <div class="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+          </div>
+        </div>
+    <script type="module" src="script_l.js"></script>
+
+
+        <script>
+            window.onload = function(){
+      
+        document.querySelector(".load-wraper").style.display = "none";
+    }
+        </script>
+</body>
+</html>
